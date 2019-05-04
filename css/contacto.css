@@ -1,0 +1,32 @@
+.contacto .header { height: 60vh; }
+
+.contacto .header:before {
+  background: #1B2030 url("../img/ilion-contacto-background-img.jpg") top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contacto-info { padding: 8em 0; }
+
+.contacto-info a {
+  display: block;
+  color: black;
+}
+
+.contacto-info img { padding: 0.5em 0.7em; }
+.contacto-info a:last-of-type { margin-bottom: 1em; }
+
+.contacto input, .contacto textarea {
+  border-radius: 5px;
+  box-shadow: none;
+  padding: 1.4em 1em;
+}
+
+.contacto label {
+  font-size: 1em;
+  padding-bottom: 0.3em;
+}
+
+.map-section iframe {
+  width: 100%;
+}

@@ -1,0 +1,176 @@
+header { background-color: black; }
+
+nav {
+  background-color: #21a8b5;
+  color: #ffffff;
+  padding: 1em 2em;
+  position: fixed;
+  width: 100%;
+}
+
+ul { list-style: none; }
+
+h4 {
+  font-size: 1.3em;
+  padding: 0 5em 0.7em 5em;
+}
+
+nav img { width: 10em; }
+nav a { color: #ffffff; }
+
+nav ul {
+  float: right;
+  margin: 7px 0 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 2em;
+}
+
+li img {
+  display: block;
+  margin: 1em auto;
+}
+
+.cell {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.header {
+  align-items: flex-start;
+  align-content: flex-start;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+}
+
+.header:after{
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(27,32,48,1) 100%);
+  bottom: 0;
+  content: "";
+  height: 40%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.header:before{
+  animation: grow 60s  linear 10ms infinite;
+  background: #1B2030 url("../img/ilion-background-img.jpg") top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  /*transform: translateZ(0);*/
+  top: 0;
+  /*transition: all 0.2s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);*/
+  width: 100%;
+  z-index:-2
+}
+
+.header a { color: #ffffff; }
+
+.arrow-down {
+  bottom: 3em;
+  display: block;
+  position: absolute;
+  width: 30px;
+}
+
+.info {
+  flex: 0 0 auto;
+  padding: 17% 10% 0 10%;
+  text-align: center;
+  width: 100%;
+}
+
+@keyframes grow{
+  0% { transform:scale(1)}
+  50% { transform:scale(1.2)}
+}
+
+.servicios { margin: 10em auto; }
+.servicios h2, .servicios li, .servicios p  { text-align: center; }
+.servicios ul { margin: 0; }
+
+.servicios p {
+  color: #7f7f7f;
+  padding: 0 1rem;
+}
+
+.servicios p:first-of-type { margin-bottom: 2em;}
+
+.servicios img {
+  margin: 1.5em auto;
+  width: 10em;
+}
+
+.contact-cta {
+  height: 70vh;
+  background: #1B2030 url("../img/ilion-catalogo-background-img2.jpg") top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10em 7em;
+  text-align: center;
+}
+
+.contact-cta h2 {
+  font-size: 2em;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.marcas-representadas {
+  padding: 8em;
+  text-align: center;
+}
+
+.marcas-representadas ul {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.marcas-representadas li {
+  display: inline-block;
+  margin-right: 4em;
+}
+
+.marcas-representadas li:last-of-type { margin-right: 0; }
+
+.marcas-representadas a {
+  color: #AFB7B7;
+  font-size: 1.1em;
+  border-bottom: 1px solid #AFB7B7;
+}
+
+.marcas-representadas a:hover {
+  color:
+}
+
+footer {
+  background-color: #21A8B5;
+  padding: 5em 2em;
+}
+
+footer a { color: #ffffff; }
+.footer-left a:last-of-type, .footer-right a:last-of-type { display: block; }
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right @media screen and (max-width: 39.9375em) {
+  text-align: center;
+}

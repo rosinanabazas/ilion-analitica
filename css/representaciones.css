@@ -1,0 +1,22 @@
+.representaciones .header { height: 60vh; }
+
+.representaciones .header:before {
+  background: #1B2030 url("../img/ilion-representaciones-background-img.jpg") top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.representaciones p {
+  text-align: center;
+  color: #7f7f7f;
+}
+
+.representaciones-lista { padding: 8em 0; }
+
+.representaciones-lista li {
+  margin-bottom: 2rem;
+}
+
+.representaciones-lista .logo-wrapper {
+  height: 85px;
+}
