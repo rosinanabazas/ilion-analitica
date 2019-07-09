@@ -1,25 +1,37 @@
 .catalogo .header { height: 60vh; }
 
 .catalogo .header:before {
-  background: #1B2030 url("../img/ilion-catalogo-background-img.jpg") top center no-repeat;
+  background: #1B2030 url("../img/ilion-analitica-fondo6.jpg") top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.catalogo-lista .cell {
-  margin-bottom: 4rem;
-}
-
 .catalogo h4 {
   font-weight: bold;
-  padding: 2rem;
-  text-align: center;
-  border-bottom: 1px solid #7f7f7f;;
+  padding: 1.5rem;
 }
-
-.catalogo-lista { padding: 8em 0; }
 
 .cell ul {
   padding: 1rem;
   color: #7f7f7f;
+}
+
+.common-section li {
+  list-style: disc;
+  font-size: 1em;
+  color: #625959;
+}
+
+.common-section { padding: 8em 0; }
+.common-section .cell { margin-bottom: 4rem; }
+
+
+/*Sobre nosotros*/
+
+.nosotros .header { height: 60vh; }
+
+.nosotros .header:before {
+  background: #1B2030 url("../img/ilion-analitica-fondo5.jpg") top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }

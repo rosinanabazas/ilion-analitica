@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilión Anlítica SRL - Equipos de laboratorios e industriales</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Ilión Anlítica | Equipos de laboratorios e industriales</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/representaciones.css">
@@ -12,18 +19,30 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   </head>
   <body>
-    <div class="representaciones">
+    <div class="representaciones generic-view">
       <div class="header">
-        <nav>
+        <nav class="desktop-nav">
           <a href="index.html"><img src="img/ilion-analitica-logo.svg" alt="Ilión Analítica Logo" title="Ilión Analítica Logo"></a>
           <ul>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="representaciones.html" class="current">Representaciones</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+          <a href="index.html"><img src="img/ilion-analitica-logo.svg" alt="Ilión Analítica Logo" title="Ilión Analítica Logo"></a>
+          <a class="show" href="#menu"><img src="img/menu.svg" alt="Menu icon"></a><a class="hide" href="#hidemenu"><img src="img/close.svg" alt="Close icon"></a>
+          <ul class="hidden-mobile-nav">
+            <li><a href="nosotros.html">Nosotros</a></li>
             <li><a href="catalogo.html">Catálogo</a></li>
             <li><a href="representaciones.html">Representaciones</a></li>
             <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </nav>
 
-        <div class="info">
+        <div class="generic-header">
           <h1>Representaciones</h1>
         </div>
       </div>
@@ -65,12 +84,6 @@
               <a href="https://eralytics.com/"><img src="img/representaciones/eralytics-logo.jpeg" alt="Ilión Analítica - Eralytics" title="Eralytics Logo"></a>
             </div>
             <p>Análisis de petróleo, derivados de petróleo y biocombustibles. Aceite en agua</p>
-          </li>
-          <li class="cell small-12 large-3">
-            <div class="logo-wrapper">
-              <a href="https://www.neurtek.com/es/ensayos-ambientales/camaras-crecimiento-plantas-fitotron"><img src="img/representaciones/fitotron-logo.png" alt="Ilión Analítica - Fitotron" title="Fitotron Logo"></a>
-            </div>
-            <p>Cámaras y habitaciones de crecimiento, proyectos, cámaras de estabilidad, cámara para arabidopsis, insectos, cultivo de tejidos y semillas.</p>
           </li>
           <li class="cell small-12 large-3">
             <div class="logo-wrapper">
@@ -204,17 +217,28 @@
             </div>
             <p>HPLC, GC, GPC, IC, Sistemas de purificación de agua, análisis especiales.</p>
           </li>
-
+          <li class="cell small-12 large-3">
+            <div class="logo-wrapper">
+              <a href="https://www.brabender.com/en/food/"><img src="img/representaciones/brabender-logo.png" alt="Ilión Analítica - Capacitación del personal" title="Brabender Logo"></a>
+            </div>
+            <p>Brabender</p>
+          </li>
+          <li class="cell small-12 large-3">
+            <div class="logo-wrapper">
+              <a href="https://www.netzsch-thermal-analysis.com/es/"><img src="img/representaciones/netzsch-logo.png" alt="Ilión Analítica - Capacitación del personal" title="Netzsch Logo"></a>
+            </div>
+            <p>Netzsch</p>
+          </li>
         </ul>
       </section>
 
       <footer class="grid-x align-center">
         <div class="footer-left cell smal-12 large-6">
-          <a href="tel:22012003">2 201 2003</a>
+          <a href="tel:+58922012003">(+589) 2 201 2003</a>
           <a href="mailto:contacto@ilion.com.uy">contacto@ilion.com.uy</a>
         </div>
         <div class="footer-right cell smal-12 large-6">
-          <a href="https://goo.gl/maps/2KZYetmpjNgsuZ387" target=”_blank”>Av. Gral San Martín 2920</a>
+          <a href="https://goo.gl/maps/2KZYetmpjNgsuZ387" target=”_blank”>Av. Gral San Martín 2920 - CP 11800</a>
           <a href="https://goo.gl/maps/2KZYetmpjNgsuZ387" target=”_blank”>Montevideo, Uruguay</a>
         </div>
       </footer>

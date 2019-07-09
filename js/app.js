@@ -6,3 +6,7 @@ $(".smooth-scroll").click(function() {
             scrollTop: $(href).offset().top
         }, 800);
     });
+
+$(".show").click(function(){
+  $(".hidden-mobile-nav").toggleClass("show-nav");
+});

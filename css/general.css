@@ -1,11 +1,10 @@
+/*General Styles*/
+
 header { background-color: black; }
 
-nav {
-  background-color: #21a8b5;
-  color: #ffffff;
-  padding: 1em 2em;
-  position: fixed;
-  width: 100%;
+p {
+  font-size: 1.1em;
+  color: #625959;
 }
 
 ul { list-style: none; }
@@ -15,15 +14,28 @@ h4 {
   padding: 0 5em 0.7em 5em;
 }
 
+/*Desktop Nav*/
+
+nav {
+  background-color: #21a8b5;
+  color: #ffffff;
+  padding: 1em 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
 nav img { width: 10em; }
 nav a { color: #ffffff; }
+.current { font-weight: 700; }
 
 nav ul {
   float: right;
   margin: 7px 0 0;
 }
 
-nav li {
+.desktop-nav li {
   display: inline-block;
   padding-left: 2em;
 }
@@ -33,10 +45,32 @@ li img {
   margin: 1em auto;
 }
 
-.cell {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+/*Mobile Nav*/
+
+.mobile-nav { display: none; }
+
+a.show img {
+  float: right;
+  width: 20px;
 }
+
+.hidden-mobile-nav {
+  float: none;
+  display: none;
+}
+
+.hidden-mobile-nav li{
+  padding: 10px;
+}
+
+.show-nav { display: block; }
+
+@media screen and (max-width: 39.9375em) {
+  .mobile-nav { display: block; }
+  .desktop-nav { display: none; }
+}
+
+/*Hero Header with Background Image*/
 
 .header {
   align-items: flex-start;
@@ -70,11 +104,7 @@ li img {
   height: 100%;
   left: 0;
   position: absolute;
-  /*transform: translateZ(0);*/
   top: 0;
-  /*transition: all 0.2s ease-in-out;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1.0, 1.0);*/
   width: 100%;
   z-index:-2
 }
@@ -90,7 +120,17 @@ li img {
 
 .info {
   flex: 0 0 auto;
-  padding: 17% 10% 0 10%;
+  padding: 22vh 0;
+  position: absolute;
+  text-align: center;
+  top: 66.5px;
+  width: 100%;
+}
+
+.generic-header {
+  padding: 10.5% 0;
+  position: absolute;
+  top: 66.5px;
   text-align: center;
   width: 100%;
 }
@@ -99,6 +139,8 @@ li img {
   0% { transform:scale(1)}
   50% { transform:scale(1.2)}
 }
+
+/*Servicios */
 
 .servicios { margin: 10em auto; }
 .servicios h2, .servicios li, .servicios p  { text-align: center; }
@@ -116,9 +158,11 @@ li img {
   width: 10em;
 }
 
+/*Contact CTA*/
+
 .contact-cta {
   height: 70vh;
-  background: #1B2030 url("../img/ilion-catalogo-background-img2.jpg") top center no-repeat;
+  background: #1B2030 url("../img/ilion-analitica-fondo1.jpg") top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 10em 7em;
@@ -132,10 +176,14 @@ li img {
   margin-bottom: 0.5em;
 }
 
+/*Marcas Representadas*/
+
 .marcas-representadas {
   padding: 8em;
   text-align: center;
 }
+
+.marcas-representadas img { width: 12em; }
 
 .marcas-representadas ul {
   text-align: center;
@@ -155,9 +203,7 @@ li img {
   border-bottom: 1px solid #AFB7B7;
 }
 
-.marcas-representadas a:hover {
-  color:
-}
+/*Footer*/
 
 footer {
   background-color: #21A8B5;
@@ -166,11 +212,43 @@ footer {
 
 footer a { color: #ffffff; }
 .footer-left a:last-of-type, .footer-right a:last-of-type { display: block; }
+.footer-right { text-align: right; }
+.footer-right @media screen and (max-width: 39.9375em) { text-align: center; }
+.mision-vision { padding: 7em 2em 0; }
 
-.footer-right {
-  text-align: right;
-}
+/*Small Media Queries*/
 
-.footer-right @media screen and (max-width: 39.9375em) {
-  text-align: center;
+@media screen and (max-width: 39.9375em) {
+  .contact-cta h2 {
+    font-size: 1.5em;
+  }
+
+  .info { padding: 7em 0 2em; }
+  .info h1 { font-weight: 700; }
+
+  .info h4 {
+    font-size: 1.2em;
+    padding: 1em 1em;
+  }
+
+  .contact-cta { padding: 7em 3em; }
+  .servicios { margin: 5em auto; }
+
+  footer,
+  footer a { text-align: center; }
+
+  button {  margin: 1.5em 0; }
+  .marcas-representadas { padding: 2em; }
+
+  .marcas-representadas ul { margin: 0 0 1em; }
+
+  .marcas-representadas li {
+    margin: 0;
+    display: block;
+  }
+
+  .show img { padding: 7px 0; }
+
+  .generic-view .header { height: 50vh; }
+  .generic-header { padding: 30.5% 0; }
 }
