@@ -7,6 +7,9 @@
 }
 
 .contacto-info { padding: 8em 0; }
+
+.contacto-info .cell { padding-right: 3em; }
+
 .contacto-info a { display: block; }
 .contacto-info a:last-of-type { margin-bottom: 1em; }
 .contacto-info img { padding: 0.5em 0.7em; }
@@ -24,3 +27,10 @@
 
 .map-section iframe { width: 100%; }
 .map-section a { color: black; }
+
+/*Small Media Queries*/
+
+@media screen and (max-width: 39.9375em) {
+  .contacto-info .cell { padding: 1em; }
+  .contacto-info { padding: 4em 0; }
+}

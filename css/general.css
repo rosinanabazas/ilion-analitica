@@ -239,7 +239,6 @@ footer a { color: #ffffff; }
 
   button {  margin: 1.5em 0; }
   .marcas-representadas { padding: 2em; }
-
   .marcas-representadas ul { margin: 0 0 1em; }
 
   .marcas-representadas li {
@@ -248,7 +247,7 @@ footer a { color: #ffffff; }
   }
 
   .show img { padding: 7px 0; }
-
+  .generic-view h1 { font-weight: 700; }
   .generic-view .header { height: 50vh; }
-  .generic-header { padding: 30.5% 0; }
+  .generic-header { padding: 37.5% 0; }
 }
