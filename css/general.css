@@ -97,7 +97,7 @@ a.show img {
 
 .header:before{
   animation: grow 60s  linear 10ms infinite;
-  background: #1B2030 url("../img/ilion-background-img.jpg") top center no-repeat;
+  background: #1B2030 url("../img/ilion-analitica-fondo8.jpg") top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   content: "";
@@ -235,7 +235,8 @@ footer a { color: #ffffff; }
   .servicios { margin: 5em auto; }
 
   footer,
-  footer a { text-align: center; }
+  footer a,
+  .footer-right { text-align: center; }
 
   button {  margin: 1.5em 0; }
   .marcas-representadas { padding: 2em; }
