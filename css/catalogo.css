@@ -1,7 +1,7 @@
 .catalogo .header { height: 60vh; }
 
 .catalogo .header:before {
-  background: #1B2030 url("../img/ilion-analitica-fondo5.jpg") top center no-repeat;
+  background: #1B2030 url("../img/catalogo/catalogo-top.jpg") top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -34,4 +34,8 @@
   background: #1B2030 url("../img/ilion-analitica-fondo6.jpg") top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.catalogo .contact-cta {
+  background: #1B2030 url("../img/catalogo/catalogo-bottom.jpg") top center no-repeat;
 }
