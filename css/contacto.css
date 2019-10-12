@@ -8,6 +8,8 @@
 
 .contacto-info { padding: 8em 0; }
 
+.map-section img { width: 50px;  }
+
 .contacto-info .cell { padding-right: 3em; }
 
 .contacto-info a { display: block; }
