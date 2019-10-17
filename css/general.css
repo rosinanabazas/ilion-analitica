@@ -98,8 +98,11 @@ a.show img {
 .header:before{
   animation: grow 60s  linear 10ms infinite;
   background: #1B2030 url("../img/home-hero.jpg") top center no-repeat;
-  background-size: cover;
   background-attachment: fixed;
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   content: "";
   height: 100%;
   left: 0;
@@ -228,11 +231,8 @@ footer a {
 /*Small Media Queries*/
 
 @media screen and (max-width: 39.9375em) {
-  .contact-cta h2 {
-    font-size: 1.5em;
-  }
-
-  .info { padding: 7em 0 2em; }
+  .header { height: 90vh; }
+  .info { padding: 5em 0; }
   .info h1 { font-weight: 700; }
 
   .info h4 {
@@ -240,6 +240,7 @@ footer a {
     padding: 1em 1em;
   }
 
+  a.arrow-down { display: none; }
   .contact-cta { padding: 7em 3em; }
   .servicios { margin: 5em auto; }
 
@@ -260,4 +261,5 @@ footer a {
   .generic-view h1 { font-weight: 700; }
   .generic-view .header { height: 50vh; }
   .generic-header { padding: 37.5% 0; }
+  .contact-cta h2 { font-size: 1.5em; }
 }
