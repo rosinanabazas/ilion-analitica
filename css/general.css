@@ -128,7 +128,7 @@ a.show img {
 }
 
 .generic-header {
-  padding: 10.5% 0;
+  padding: 10% 0;
   position: absolute;
   top: 66.5px;
   text-align: center;
@@ -162,7 +162,7 @@ a.show img {
 
 .contact-cta {
   height: 70vh;
-  background: #1B2030 url("../img/ilion-analitica-fondo1.jpg") top center no-repeat;
+  background: #1B2030 url("../img/ilion-analitica-fondo8.jpg") top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 10em 7em;
@@ -210,8 +210,17 @@ footer {
   padding: 5em 2em;
 }
 
-footer a { color: #ffffff; }
-.footer-left a:last-of-type, .footer-right a:last-of-type { display: block; }
+footer a {
+  color: #ffffff;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.footer-left img {
+  margin-right: 10px;
+  width: 20px;
+}
+
 .footer-right { text-align: right; }
 .footer-right @media screen and (max-width: 39.9375em) { text-align: center; }
 .mision-vision { padding: 7em 2em 0; }

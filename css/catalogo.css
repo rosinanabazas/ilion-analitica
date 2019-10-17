@@ -1,7 +1,13 @@
 .catalogo .header { height: 60vh; }
 
 .catalogo .header:before {
-  background: #1B2030 url("../img/catalogo/catalogo-top.jpg") top center no-repeat;
+  background: #1B2030 url("../img/ilion-analitica-fondo9.jpg") top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.calidad .header:before {
+  background: #1B2030 url("../img/ilion-analitica-fondo8.jpg") top center no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -22,9 +28,8 @@
   color: #625959;
 }
 
-.common-section { padding: 8em 0; }
+.common-section { padding: 8em 2em; }
 .common-section .cell { margin-bottom: 4rem; }
-
 
 /*Sobre nosotros*/
 
