@@ -257,6 +257,11 @@ footer a {
     display: block;
   }
 
+  .mision-vision {
+    padding: 3em 1em 0;
+    text-align: left;
+  }
+
   .show img { padding: 7px 0; }
   .generic-view h1 { font-weight: 700; }
   .generic-view .header { height: 50vh; }
