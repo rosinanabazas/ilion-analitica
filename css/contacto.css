@@ -8,13 +8,18 @@
 
 .contacto-info { padding: 8em 0; }
 
-.map-section img { width: 50px;  }
-
 .contacto-info .cell { padding-right: 3em; }
 
-.contacto-info a { display: block; }
+.contacto-info a {
+  display: block;
+  color: black;
+}
+
 .contacto-info a:last-of-type { margin-bottom: 1em; }
-.contacto-info img { padding: 0.5em 0.7em; }
+.contacto-info img {
+  padding: 0.5em 0.7em;
+  width: 50px;
+}
 
 .contacto input, .contacto textarea {
   border-radius: 5px;
@@ -28,7 +33,6 @@
 }
 
 .map-section iframe { width: 100%; }
-.map-section a { color: black; }
 
 /*Small Media Queries*/
 
