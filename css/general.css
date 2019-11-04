@@ -206,6 +206,9 @@ a.show img {
   border-bottom: 1px solid #AFB7B7;
 }
 
+.image-separator { width: 100%; }
+
+
 /*Footer*/
 
 footer {
@@ -226,7 +229,11 @@ footer a {
 
 .footer-right { text-align: right; }
 .footer-right @media screen and (max-width: 39.9375em) { text-align: center; }
-.mision-vision { padding: 7em 2em 0; }
+
+.mision-vision {
+  padding: 7em 2em 0;
+  text-align: center;
+}
 
 /*Small Media Queries*/
 
@@ -259,7 +266,7 @@ footer a {
 
   .mision-vision {
     padding: 3em 1em 0;
-    text-align: left;
+    /*text-align: left;*/
   }
 
   .show img { padding: 7px 0; }
