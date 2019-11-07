@@ -206,7 +206,7 @@ a.show img {
   border-bottom: 1px solid #AFB7B7;
 }
 
-.image-separator { width: 100%; }
+.image-separator img { width: 100%; }
 
 
 /*Footer*/
